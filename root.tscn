@@ -46,6 +46,7 @@ scale = Vector2( 1, 22 )
 
 [node name="Box9" parent="Manager/Boxes" instance=ExtResource( 1 )]
 position = Vector2( 1216, 800 )
+rotation = 0.380482
 scale = Vector2( 1, 22 )
 
 [node name="Box10" parent="Manager/Boxes" instance=ExtResource( 1 )]
