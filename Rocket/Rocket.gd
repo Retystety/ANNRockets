@@ -14,7 +14,7 @@ var best = false
 func _ready():
 	if (!best):
 		net.add_random(-Settings.add_range/2, Settings.add_range/2)
-		#net.multiply_random(0.8,1.2)
+		net.multiply_random(1/(1+Settings.multiply_range),1+Settings.multiply_range)
 	input.resize(Settings.net_struct[0])
 
 func _physics_process(delta):
