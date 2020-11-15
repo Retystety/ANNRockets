@@ -9,9 +9,10 @@ var net_struct = [8 + 2 + 2 + 1 + 1 + 2,20,20,2]
 
 var path = "user://net.txt"
 
-var gen_size = 40
-var gen_time = 30
+var gen_size = 50
+var gen_time = 60
 
 var agent_scene = load("res://Rocket/Rocket.tscn")
 
-var add_range = 0.5
+var add_range = 0.3
+var multiply_range = 0.1
